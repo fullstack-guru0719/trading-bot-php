@@ -1,0 +1,71 @@
+body.cryptobot {
+    margin-bottom: 20px;
+}
+
+.cryptobot-well {
+    background: #fbfbfb;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.cryptobot-navbar {
+    border-radius: 0;
+}
+
+.cryptobot-color-green {
+    color: #009000;
+}
+
+.cryptobot-color-red {
+    color: #ff0000;
+}
+
+.cryptobot-color-black {
+    color: #000000;
+}
+
+h1.cryptobot {
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.cryptobot-margin-0 {
+    margin: 0 !important;
+}
+
+.cryptobot-margin-top-10 {
+    margin-top: 10px !important;
+}
+
+.cryptobot-margin-top-20 {
+    margin-top: 20px !important;
+}
+
+.cryptobot-margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.cryptobot-margin-bottom-10 {
+    margin-bottom: 10px !important;
+}
+
+.cryptobot-margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+
+.cryptobot-margin-right-10 {
+    margin-right: 10px;
+}
+
+.cryptobot-margin-right-20 {
+    margin-right: 20px;
+}
+
+.cryptobot-margin-left-10 {
+    margin-left: 10px;
+}
+
+.cryptobot-margin-left-20 {
+    margin-left: 20px;
+}

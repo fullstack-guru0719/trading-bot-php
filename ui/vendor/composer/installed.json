@@ -1,0 +1,153 @@
+[
+    {
+        "name": "components/bootstrap",
+        "version": "3.4.1",
+        "version_normalized": "3.4.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/bootstrap.git",
+            "reference": "427f4d414fc6ae8385aee02b7efc8e391eb141ad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/bootstrap/zipball/427f4d414fc6ae8385aee02b7efc8e391eb141ad",
+            "reference": "427f4d414fc6ae8385aee02b7efc8e391eb141ad",
+            "shasum": ""
+        },
+        "require": {
+            "components/jquery": "1.9.1 - 3"
+        },
+        "suggest": {
+            "components/bootstrap-default": "Provide a theme for Bootstrap as components/bootstrap only provides the CSS as file assets"
+        },
+        "time": "2019-05-08T19:36:29+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "js/bootstrap.js"
+                ],
+                "files": [
+                    "js/*.js",
+                    "css/*.css",
+                    "css/*.map",
+                    "fonts/*",
+                    "less/mixins/*.less",
+                    "less/*.less"
+                ],
+                "shim": {
+                    "deps": [
+                        "jquery"
+                    ]
+                }
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "css",
+            "framework",
+            "front-end",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "components/font-awesome",
+        "version": "4.7.0",
+        "version_normalized": "4.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/font-awesome.git",
+            "reference": "885308b939369d147bec93174722786bc2c4eedd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/font-awesome/zipball/885308b939369d147bec93174722786bc2c4eedd",
+            "reference": "885308b939369d147bec93174722786bc2c4eedd",
+            "shasum": ""
+        },
+        "time": "2016-10-25T10:56:23+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "styles": [
+                    "css/font-awesome.css"
+                ],
+                "files": [
+                    "css/font-awesome.min.css",
+                    "css/font-awesome.css.map",
+                    "fonts/*"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT",
+            "OFL-1.1"
+        ],
+        "description": "The iconic font designed for use with Twitter Bootstrap."
+    },
+    {
+        "name": "components/jquery",
+        "version": "1.12.4",
+        "version_normalized": "1.12.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/components/jquery.git",
+            "reference": "5dd7297d7603e11e53bdcca2a71074d92de37b8f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/components/jquery/zipball/5dd7297d7603e11e53bdcca2a71074d92de37b8f",
+            "reference": "5dd7297d7603e11e53bdcca2a71074d92de37b8f",
+            "shasum": ""
+        },
+        "time": "2016-05-25T06:50:04+00:00",
+        "type": "component",
+        "extra": {
+            "component": {
+                "scripts": [
+                    "jquery.js"
+                ],
+                "files": [
+                    "jquery.min.js",
+                    "jquery.min.map",
+                    "jquery-migrate.js",
+                    "jquery-migrate.min.js"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "John Resig",
+                "email": "jeresig@gmail.com"
+            }
+        ],
+        "description": "jQuery JavaScript Library",
+        "homepage": "http://jquery.com"
+    }
+]

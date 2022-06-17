@@ -1,0 +1,7 @@
+{
+    "require": {
+        "components/font-awesome": "4.7.0",
+        "components/bootstrap": "3.4.1",
+        "components/jquery": "1.12.4"
+    }
+}
